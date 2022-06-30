@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.18"
+  },
+  "name": "tarea5-sass",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "//SaSS//",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juli0Rom/tarea5-sass.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Juli0Rom/tarea5-sass/issues"
+  },
+  "homepage": "https://github.com/Juli0Rom/tarea5-sass#readme"
+}
